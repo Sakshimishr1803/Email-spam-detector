@@ -3,10 +3,10 @@ import pickle
 import numpy as np
 
 # Load the trained model and vectorizer
-with open('vectorizer.pkl', 'rb') as f:
+with open('vectorizer.pkl.url', 'rb') as f:
     vectorizer = pickle.load(f)
 
-with open('model.pkl', 'rb') as f:
+with open('model.pkl.url', 'rb') as f:
     model = pickle.load(f)
 
 # Set Streamlit theme and page configuration
